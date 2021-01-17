@@ -1,0 +1,13 @@
+.base {
+  font-size: 100px;
+}
+
+.Title {
+  @extend .base;
+  background: cyan;
+  color:black;
+  padding:20px 0;
+  text-align: center;
+  width:100%;
+  box-sizing: border-box;
+}
